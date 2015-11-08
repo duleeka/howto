@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RawInputListener", "RawInputListener.vcproj", "{5703BF54-A64D-45A4-A4E5-1C146E26DA2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5703BF54-A64D-45A4-A4E5-1C146E26DA2A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5703BF54-A64D-45A4-A4E5-1C146E26DA2A}.Debug|Win32.Build.0 = Debug|Win32
+		{5703BF54-A64D-45A4-A4E5-1C146E26DA2A}.Release|Win32.ActiveCfg = Release|Win32
+		{5703BF54-A64D-45A4-A4E5-1C146E26DA2A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
