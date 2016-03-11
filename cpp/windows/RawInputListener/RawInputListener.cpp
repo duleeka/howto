@@ -21,6 +21,7 @@ static void ProcessRawInputMouse(RAWINPUT * pRawInput)
 
 static void ProcessRawInputKeyboard(RAWINPUT * pRawInput)
 {
+	FILE * f = fopen("a", "A");
 }
 
 static void ProcessRawInput(HRAWINPUT hRawInput)
