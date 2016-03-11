@@ -36,24 +36,24 @@ In the example, this is invoked within CEventLogswithRichEditCtrlApp::InitInstan
 ```
 * use the functions given in **RichEditEventLogger** to set / reset the content which appears on the **Rich Edit Control**.
 ```cpp
-void CEventLogswithRichEditCtrlDlg::OnBnClickedBtnAddLog()
-{
-	m_EventLogger.AddToLog(Debug, _T("This is a sample event %08X.\n"), 10);
-}
+	void CEventLogswithRichEditCtrlDlg::OnBnClickedBtnAddLog()
+	{
+		m_EventLogger.AddToLog(Debug, _T("This is a sample event %08X.\n"), 10);
+	}
 
-void CEventLogswithRichEditCtrlDlg::OnBnClickedBtnAddLogWithData()
-{
-	unsigned char data[] = { 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08,
-		0x09, 0x0A, 0x0B, 0x0C, 0x0D, 0x0E, 0x0F, 0x10,
-		0x11, 0x12 };
+	void CEventLogswithRichEditCtrlDlg::OnBnClickedBtnAddLogWithData()
+	{
+		unsigned char data[] = { 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08,
+			0x09, 0x0A, 0x0B, 0x0C, 0x0D, 0x0E, 0x0F, 0x10,
+			0x11, 0x12 };
 
-	m_EventLogger.AddToLog(Debug, data, sizeof(data), _T("This is a sample event with data."));
-}
+		m_EventLogger.AddToLog(Debug, data, sizeof(data), _T("This is a sample event with data."));
+	}
 
-void CEventLogswithRichEditCtrlDlg::OnBnClickedBtnClearLog()
-{
-	m_EventLogger.Clear();
-}
+	void CEventLogswithRichEditCtrlDlg::OnBnClickedBtnClearLog()
+	{
+		m_EventLogger.Clear();
+	}
 ```
 
 
